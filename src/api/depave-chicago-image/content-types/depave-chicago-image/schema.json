@@ -4,7 +4,8 @@
   "info": {
     "singularName": "depave-chicago-image",
     "pluralName": "depave-chicago-images",
-    "displayName": "DepaveChicago-image"
+    "displayName": "DepaveChicago-image",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,14 +13,21 @@
   "pluginOptions": {},
   "attributes": {
     "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "rotateOrder": {
+      "type": "integer"
     }
   }
 }
