@@ -1,33 +1,31 @@
 {
   "kind": "collectionType",
-  "collectionName": "abouts",
+  "collectionName": "about_team_lab_members",
   "info": {
-    "singularName": "about",
-    "pluralName": "abouts",
-    "displayName": "About-waterLab",
-    "description": ""
+    "singularName": "about-team-lab-member",
+    "pluralName": "about-team-lab-members",
+    "displayName": "About-team-labMember"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "mainText": {
+    "description": {
       "type": "richtext"
     },
-    "supporter": {
+    "descriptionCollapse": {
       "type": "richtext"
     },
-    "suportterLogo": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
+    "headshot": {
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

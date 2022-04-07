@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_team_special_agents",
+  "info": {
+    "singularName": "about-team-special-agent",
+    "pluralName": "about-team-special-agents",
+    "displayName": "About-team-specialAgent"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "headshot": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
