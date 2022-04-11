@@ -4,7 +4,8 @@
   "info": {
     "singularName": "about-team-collaborator",
     "pluralName": "about-team-collaborators",
-    "displayName": "About-team-collaborator"
+    "displayName": "About-team-collaborator",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,6 +17,9 @@
     },
     "collaboration": {
       "type": "string"
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }

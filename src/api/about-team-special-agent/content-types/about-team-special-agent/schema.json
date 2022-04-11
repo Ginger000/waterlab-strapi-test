@@ -4,7 +4,8 @@
   "info": {
     "singularName": "about-team-special-agent",
     "pluralName": "about-team-special-agents",
-    "displayName": "About-team-specialAgent"
+    "displayName": "About-team-specialAgent",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,14 +16,18 @@
       "type": "string"
     },
     "headshot": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }

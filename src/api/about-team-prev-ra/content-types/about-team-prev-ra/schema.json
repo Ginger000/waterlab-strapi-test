@@ -4,7 +4,8 @@
   "info": {
     "singularName": "about-team-prev-ra",
     "pluralName": "about-team-prev-ras",
-    "displayName": "About-team-prevRA"
+    "displayName": "About-team-prevRA",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,6 +20,9 @@
     },
     "term": {
       "type": "string"
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }
