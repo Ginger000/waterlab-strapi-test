@@ -4,7 +4,8 @@
   "info": {
     "singularName": "about-team-lab-member",
     "pluralName": "about-team-lab-members",
-    "displayName": "About-team-labMember"
+    "displayName": "About-team-labMember",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,14 +19,18 @@
       "type": "richtext"
     },
     "headshot": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }
