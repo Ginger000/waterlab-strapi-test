@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_land_acknowledges",
+  "info": {
+    "singularName": "about-land-acknowledge",
+    "pluralName": "about-land-acknowledges",
+    "displayName": "About-landAcknowledge"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
