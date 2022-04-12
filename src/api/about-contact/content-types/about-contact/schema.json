@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_contacts",
+  "info": {
+    "singularName": "about-contact",
+    "pluralName": "about-contacts",
+    "displayName": "About-contact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bannerText": {
+      "type": "richtext"
+    },
+    "chicagoAddress": {
+      "type": "richtext"
+    },
+    "champaignAddress": {
+      "type": "richtext"
+    },
+    "cyberConnectionAndMore": {
+      "type": "richtext"
+    }
+  }
+}
