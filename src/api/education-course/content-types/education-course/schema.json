@@ -37,6 +37,12 @@
     },
     "content": {
       "type": "richtext"
+    },
+    "data_bs_target": {
+      "type": "string"
+    },
+    "aria_labelledby": {
+      "type": "string"
     }
   }
 }
