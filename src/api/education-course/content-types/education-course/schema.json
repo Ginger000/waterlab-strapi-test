@@ -12,12 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "text"
-    },
-    "content": {
-      "type": "richtext"
-    },
     "thumbnail": {
       "type": "media",
       "multiple": false,
@@ -37,6 +31,12 @@
     },
     "needPlaceHolder": {
       "type": "boolean"
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "content": {
+      "type": "richtext"
     }
   }
 }
