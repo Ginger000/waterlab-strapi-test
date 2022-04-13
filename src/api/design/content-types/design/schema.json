@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "text"
-    },
     "internalLink": {
       "type": "text"
     },
@@ -31,6 +28,9 @@
     },
     "order": {
       "type": "integer"
+    },
+    "title": {
+      "type": "richtext"
     }
   }
 }
