@@ -4,7 +4,8 @@
   "info": {
     "singularName": "education-on-board",
     "pluralName": "education-on-boards",
-    "displayName": "Education-on-Board"
+    "displayName": "Education-on-Board",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,17 +19,21 @@
       "type": "text"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "isActive": {
       "type": "boolean"
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }

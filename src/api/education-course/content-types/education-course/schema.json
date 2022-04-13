@@ -31,6 +31,9 @@
     },
     "isShow": {
       "type": "boolean"
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }
