@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "education_courses",
+  "info": {
+    "singularName": "education-course",
+    "pluralName": "education-courses",
+    "displayName": "Education-course",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "isShow": {
+      "type": "boolean"
+    }
+  }
+}
