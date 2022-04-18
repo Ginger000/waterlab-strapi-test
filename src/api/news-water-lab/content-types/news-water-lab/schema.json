@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "news_internals",
+  "collectionName": "news_water_labs",
   "info": {
-    "singularName": "news-internal",
-    "pluralName": "news-internals",
-    "displayName": "News-internal"
+    "singularName": "news-water-lab",
+    "pluralName": "news-water-labs",
+    "displayName": "News-waterLab"
   },
   "options": {
     "draftAndPublish": true
