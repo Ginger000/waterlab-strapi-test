@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_internals",
+  "info": {
+    "singularName": "news-internal",
+    "pluralName": "news-internals",
+    "displayName": "News-internal"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "year": {
+      "type": "integer"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "hasExternalLink": {
+      "type": "boolean"
+    },
+    "externalLink": {
+      "type": "text"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}
