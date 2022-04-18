@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_waterlab_2017s",
+  "info": {
+    "singularName": "news-waterlab-2017",
+    "pluralName": "news-waterlab-2017s",
+    "displayName": "News-waterlab-2017"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "hasExternalLink": {
+      "type": "boolean"
+    },
+    "externalLink": {
+      "type": "text"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}
