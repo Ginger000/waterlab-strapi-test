@@ -23,9 +23,6 @@
     },
     "order": {
       "type": "integer"
-    },
-    "year": {
-      "type": "integer"
     }
   }
 }
