@@ -4,7 +4,8 @@
   "info": {
     "singularName": "news-waterlab-2019",
     "pluralName": "news-waterlab-2019s",
-    "displayName": "News-waterlab-2019"
+    "displayName": "News-waterlab-2019",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -21,6 +22,9 @@
       "type": "text"
     },
     "order": {
+      "type": "integer"
+    },
+    "year": {
       "type": "integer"
     }
   }
