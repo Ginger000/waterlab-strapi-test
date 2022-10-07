@@ -1,0 +1,83 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "Event",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "learnMore_file": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "learnMore_link": {
+      "type": "text"
+    },
+    "learnMore_isFile": {
+      "type": "boolean"
+    },
+    "isLearnMore": {
+      "type": "boolean"
+    },
+    "background_color": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    },
+    "imageLeft": {
+      "type": "boolean"
+    },
+    "template_option": {
+      "type": "enumeration",
+      "enum": [
+        "template1",
+        "template2"
+      ]
+    },
+    "hasCardBorder": {
+      "type": "boolean",
+      "default": true
+    },
+    "hasImageBorder": {
+      "type": "boolean",
+      "default": true
+    },
+    "location": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    }
+  }
+}
